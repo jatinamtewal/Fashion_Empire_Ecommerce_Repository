@@ -1,0 +1,57 @@
+.sidebar {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 0;
+  }
+  
+  .sidebar > a:first-child {
+    padding: 0;
+  }
+
+  .sidebar > a > img {
+    /* width: 100%; */
+    height: 10rem;
+    position: relative;
+    left: 40px;
+    /* transition: all 0.5s; */
+  }
+  
+  /* .logo-img{
+    width: auto;
+    height: 10rem;
+  } */
+  /* .sidebar > a > img:hover {
+    filter: drop-shadow(0 0 10px tomato);
+  } */
+  .sidebar a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.493);
+    font: 200 2rem "Roboto";
+    padding: 2rem;
+    transition: all 0.5s;
+  }
+  .sidebar a:hover {
+    color: tomato;
+    transform: scale(1.1);
+  }
+  
+  .sidebar a > P {
+    display: flex;
+    align-items: center;
+  }
+  .sidebar a > p > svg {
+    margin-right: 0.5rem;
+  }
+  .MuiTypography-body1{
+    font-size: 2rem;
+    /* font-family: "Roboto", "Helvetica", "Arial", sans-serif; */
+    /* font-weight: 100; */
+    font: 200 2rem "Roboto";
+    padding:0 2rem;
+    letter-spacing: 0.00938em;
+  }
+  .MuiTypography-root {
+    background-color: #fff !important;
+  }
+  
