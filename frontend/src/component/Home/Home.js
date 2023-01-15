@@ -32,8 +32,8 @@ const Home = () => {
       (<Fragment>
       <MetaData title="FASHION EMPIRE" />
           <div className="banner">
-            <p>Welcome to FASHION EMPIRE</p>
-            <h1>FIND AMAZING PRODUCTS BELOW</h1>
+            <p><i> Welcome to FASHION EMPIRE Where FASHION meets AFFORDABILITY </i></p>
+            <h1><i>Shop our Collection & Elevate your Wardrobe Today.</i></h1>
 
             <a href="#container">
               <button>

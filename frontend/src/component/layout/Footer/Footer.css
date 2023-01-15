@@ -103,14 +103,15 @@ footer {
     font-size: large;
     color: #b9b9b9;
 }
-.col ul li{
+.col ul li a{
     color: #ccc;
     font-weight: 200;
     font-size: large;
     transition: color 250ms ease-in;
     cursor: pointer;
 }
-.col li:hover{
+
+.col ul li a:hover{
     color: white;
 }
 .footerlogo{

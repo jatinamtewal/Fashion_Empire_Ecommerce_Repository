@@ -3,6 +3,7 @@ import "./aboutSection.css";
 import { Button, Typography, Avatar } from "@material-ui/core";
 import YouTubeIcon from "@material-ui/icons/YouTube";
 import InstagramIcon from "@material-ui/icons/Instagram";
+import FacebookIcon from "@material-ui/icons/Facebook";
 import MetaData from "../MetaData";
 const About = () => {
   const visitInstagram = () => {
@@ -29,11 +30,21 @@ const About = () => {
               Visit Instagram
             </Button>
             <span>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            Welcome to Fashion Empire, your destination for the latest in men's fashion.<br></br> <br></br> 
+
+At Fashion Empire, we believe that fashion is more than just clothes, it's a way to express yourself and show the world who you are. Our mission is to provide our customers with high-quality, on-trend clothing and accessories from the top brands in the industry. We offer a wide selection of clothing from well-known brands such as Adidas, Nike, Puma, and many more, ensuring that you will always find something new and exciting when you visit our store.
+<br></br> <br></br> 
+At Fashion Empire, we understand that shopping online can be a bit overwhelming, that's why we have a simple and easy return policy. If you are not completely satisfied with your purchase, you can return it within 30 days for a full refund or exchange.
+<br></br> <br></br> 
+Thank you for considering Fashion Empire for your fashion needs. We look forward to serving you and helping you look and feel your best.
+
+
+
+
             </span>
           </div>
           <div className="aboutSectionContainer2">
-            <Typography component="h2">Our Brands</Typography>
+            <Typography component="h2">Our Social Handles</Typography>
             {/* <a
               href="https://www.youtube.com"
               target="_blank" rel="noreferrer"
@@ -43,6 +54,9 @@ const About = () => {
 
             <a href="https://www.instagram.com/fashionempirebarara/" target="_blank" rel="noreferrer">
               <InstagramIcon className="instagramSvgIcon" />
+            </a>
+            <a href="https://www.instagram.com/fashionempirebarara/" target="_blank" rel="noreferrer">
+              <FacebookIcon className="fbSvgIcon" />
             </a>
           </div>
         </div>

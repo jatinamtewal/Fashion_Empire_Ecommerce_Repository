@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');
 .banner {
     background-image: url("../../images/pexels-cottonbro-studio-4904563.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
     height: 100vmin;
     display: flex;
     flex-direction: column;
@@ -17,12 +22,19 @@
     margin: 5vmax;
   
     font: 600 2.5vmax "Roboto";
+    text-shadow:3px 3px 0 #2b1f34, -1px -1px 0 #2b1f34, 1px -1px 0 #2b1f34, -1px 1px 0 #2b1f34, 1px 1px 0 #2b1f34;
   }
   
-  .banner > p {
+  /* .banner > p {
     font: 300 1.4vmax "Roboto";
-  }
+  } */
   
+  .banner > p{
+    font: 600 3.4vmax "Roboto";
+    margin-top: 121px;
+    text-shadow: 3px 3px 0 #2b1f34, -1px -1px 0 #2b1f34, 1px -1px 0 #2b1f34, -1px 1px 0 #2b1f34, 1px 1px 0 #2b1f34;
+  }
+
   .banner > a > button {
     margin-bottom: 5vmax;
     cursor: pointer;
@@ -150,6 +162,12 @@
   @media screen and (max-device-width: 480px) {
     .banner{
       margin-top: 6rem;
+    }
+    .banner > p{
+      margin-top: 0px;
+    }
+    .banner > a > button{
+      margin-bottom: 9vmax;
     }
     .banner::after{
       top: 6.1rem;

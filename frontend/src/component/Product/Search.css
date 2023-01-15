@@ -44,13 +44,13 @@
   
   @media screen and (max-width: 600px) {
     .searchBox > input[type="text"] {
-      width: 100%;
+      width: 60%;
       font: 300 4vw cursive;
-      height: 10%;
+      height: 8%;
     }
   
     .searchBox > input[type="submit"] {
-      height: 10%;
+      height: 8%;
       width: 30%;
       font: 300 4vw "Roboto";
     }

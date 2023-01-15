@@ -2,7 +2,7 @@ import React from "react";
 // import playStore from "../../../images/playstore.png";
 // import appStore from "../../../images/Appstore.png";
 import "./Footer.css";
-
+import { NavLink } from "react-router-dom";
 const Footer = () => {
   return (
     <footer id="footer">
@@ -14,11 +14,19 @@ const Footer = () => {
         <div className="col">
                 <p>Ouick links</p>
                 <ul>
-                    <li>Category</li>
-                    <li>Promo</li>
-                    <li>Men Product</li>
-                    <li>Women Product</li>
-                </ul>
+            <li>
+              <NavLink to="/">Home</NavLink>
+            </li>
+            <li>
+              <NavLink to="/products">Products</NavLink>
+            </li>
+            <li>
+              <NavLink to="/about">About</NavLink>
+            </li>
+            <li>
+              <NavLink to="/contact">Contact</NavLink>
+            </li>
+          </ul>
       </div>
 
       </div> 
@@ -29,13 +37,13 @@ const Footer = () => {
       
         <p>Create Your Own Fashion</p>
 
-        <p>Copyrights 2022 &copy; FASHION EMPIRE</p>
+        <p>Copyrights 2023 &copy; FASHION EMPIRE</p>
       </div>
 
       <div className="rightFooter">
       <h4>Follow Us</h4>
       <a href="https://www.instagram.com" target="_blank" rel="noreferrer">Instagram</a>
-      <a href="https://www.youtube.com" target="_blank" rel="noreferrer">Youtube</a>
+      {/* <a href="https://www.youtube.com" target="_blank" rel="noreferrer">Youtube</a> */}
       <a href="https://www.facebook.com" target="_blank" rel="noreferrer">Facebook</a>
       </div>
 
